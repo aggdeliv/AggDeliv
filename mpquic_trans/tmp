@@ -1,0 +1,7 @@
+make -C .. qpclient
+make[1]: Entering directory '/home/zongyi/MPQUIC'
+make -C .. qpclient
+make[2]: Entering directory '/home/zongyi'
+make -C /home/zongyi/MPQUIC/mp_quic/test qpclient
+make[3]: Entering directory '/home/zongyi/MPQUIC/mp_quic/test'
+go run qpclient.go -v -k -proxy http://192.168.1.137:3443 -l 127.0.0.1:18080 -auth username:password

@@ -1,0 +1,5 @@
+*.maq18
+*.index
+*.meta
+nn_model*
+events*
